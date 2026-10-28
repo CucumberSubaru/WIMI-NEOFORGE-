@@ -1,0 +1,36 @@
+{
+	"format_version": "26.3",
+	"credit": "Model by MrCrayfish (https://x.com/MrCrayfish) using Blockbench. All Rights Reserved. Personal use only. Split into body and lid for animation.",
+	"textures": {
+		"particle": "backpackinv:item/classic",
+		"classic": "backpackinv:item/classic"
+	},
+	"elements": [
+		{
+			"from": [4.5, 0, 6],
+			"to": [11.5, 5.5, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, -2]},
+			"faces": {
+				"north": {"uv": [2, 1.75, 5.5, 4.5], "texture": "#classic"},
+				"east": {"uv": [0, 1.75, 2, 4.5], "texture": "#classic"},
+				"south": {"uv": [7.5, 1.75, 11, 4.5], "texture": "#classic"},
+				"west": {"uv": [5.5, 1.75, 7.5, 4.5], "texture": "#classic"},
+				"up": {"uv": [14.5, 2, 11, 0], "texture": "#classic"},
+				"down": {"uv": [14.5, 2, 11, 4], "texture": "#classic"}
+			}
+		},
+		{
+			"from": [6, 1.75, 10],
+			"to": [10, 4.75, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 3]},
+			"faces": {
+				"north": {"uv": [11.5, 0.5, 14, 1.5], "texture": "#classic"},
+				"east": {"uv": [4, 2, 4.5, 3.5], "texture": "#classic"},
+				"south": {"uv": [11, 4.5, 13, 6], "texture": "#classic"},
+				"west": {"uv": [4.5, 2, 5, 3.5], "texture": "#classic"},
+				"up": {"uv": [11, 4, 13, 4.5], "texture": "#classic"},
+				"down": {"uv": [8.5, 3.5, 10.5, 4], "texture": "#classic"}
+			}
+		}
+	]
+}
